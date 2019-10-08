@@ -1,0 +1,111 @@
+{
+  "id": "f494b273-9e7d-4323-8cbe-3603696f1ea2",
+  "version": "2.0",
+  "name": "BrowserGame1",
+  "url": "https://plarium.com",
+  "tests": [{
+    "id": "7cb0f062-b697-40f7-89d0-2dbd7dbb4041",
+    "name": "BrowserGame_1",
+    "commands": [{
+      "id": "8029b438-829b-4e00-be75-49073254de9f",
+      "comment": "",
+      "command": "open",
+      "target": "/en/strategy-games/throne-kingdom-at-war/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78658f5c-8ec1-4dac-8729-bfb3de633e43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1057x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8c1746e-c74a-4c14-a134-970b196091bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.P9dW9p",
+      "targets": [
+        ["css=.P9dW9p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "675f50ad-5fc3-43a8-9ecc-ab96cb6ee192",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "472f9d3f-daac-4271-8314-53c12edb06ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "emailgetajob@gmail.com"
+    }, {
+      "id": "b82b8313-f051-41a9-8bea-4a18e1ff24cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea7d65fc-0b07-4bfe-8278-3b65a1cdd90b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1187342a"
+    }, {
+      "id": "0fe4c28d-b119-468e-897c-2a32d32211ae",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "64b0a112-1790-4d7f-ab41-f77a772c80d6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7cb0f062-b697-40f7-89d0-2dbd7dbb4041"]
+  }],
+  "urls": ["https://plarium.com/"],
+  "plugins": []
+}
