@@ -1,0 +1,278 @@
+{
+  "id": "f494b273-9e7d-4323-8cbe-3603696f1ea2",
+  "version": "2.0",
+  "name": "BrowserGame2",
+  "url": "https://plarium.com",
+  "tests": [{
+    "id": "7cb0f062-b697-40f7-89d0-2dbd7dbb4041",
+    "name": "BrowserGame*",
+    "commands": [{
+      "id": "8029b438-829b-4e00-be75-49073254de9f",
+      "comment": "",
+      "command": "open",
+      "target": "/en/strategy-games/throne-kingdom-at-war/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78658f5c-8ec1-4dac-8729-bfb3de633e43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1057x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8c1746e-c74a-4c14-a134-970b196091bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.P9dW9p",
+      "targets": [
+        ["css=.P9dW9p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "675f50ad-5fc3-43a8-9ecc-ab96cb6ee192",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "472f9d3f-daac-4271-8314-53c12edb06ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "emailgetajob@gmail.com"
+    }, {
+      "id": "b82b8313-f051-41a9-8bea-4a18e1ff24cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea7d65fc-0b07-4bfe-8278-3b65a1cdd90b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1187342a"
+    }, {
+      "id": "0fe4c28d-b119-468e-897c-2a32d32211ae",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ca6a834c-446d-47eb-b6ef-b8cd4882afae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.P32btb",
+      "targets": [
+        ["css=.P3Y0hn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div/div[3]/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f1ed55f-7ada-47f8-a7c5-99137f21c495",
+      "comment": "",
+      "command": "click",
+      "target": "css=.P3Y0hn",
+      "targets": [
+        ["css=.P3Y0hn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div/div[3]/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24c0f800-d7d2-4bb6-874e-2edf8e8d734a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.P1MFGS",
+      "targets": [
+        ["css=.P1MFGS", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[7]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "aaabd586-11f1-41d8-accf-27643ae304e5",
+      "comment": "",
+      "command": "open",
+      "target": "/en/strategy-games/throne-kingdom-at-war/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7e2962f-1b03-4ba5-bf00-f5718213f433",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1092x993",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e489364-552b-4ae0-9aed-05a899b11139",
+      "comment": "",
+      "command": "click",
+      "target": "css=.P9dW9p",
+      "targets": [
+        ["css=.P9dW9p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee9becb-25ba-4d64-ac29-581cb0b6b0f5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Sign in with Facebook')]",
+      "targets": [
+        ["css=.P1zUK5 > .P1FJkC", "css:finder"],
+        ["xpath=//div[5]/div[2]/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in with Facebook')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8300",
+      "windowTimeout": 2000
+    }, {
+      "id": "4d4cd104-7605-43a3-ba01-b3ef7e5495a3",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "810f5e07-535a-4e92-a0d0-625a5dcae599",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.P32btb",
+      "targets": [
+        ["css=.P3Y0hn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div/div[3]/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab62c88-04a7-415a-9e82-efa3e11a3aa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.P3Y0hn",
+      "targets": [
+        ["css=.P3Y0hn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div/div[3]/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d6611b-17f8-4137-94d0-21a04f0110b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.P1MFGS",
+      "targets": [
+        ["css=.P1MFGS", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b53b01a-7d18-4449-938c-dc45ee88661d",
+      "comment": "",
+      "command": "open",
+      "target": "/en/strategy-games/throne-kingdom-at-war/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f57084c7-2169-4c3f-97a9-a0734fed8948",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1057x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "725c5be9-942c-4b18-bb73-f8f0c8f802d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.P9dW9p",
+      "targets": [
+        ["css=.P9dW9p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40fabd31-a123-4140-ab89-cd83b8452da2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Sign in with Google')]",
+      "targets": [
+        ["css=.P36u9c", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[6]/div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in with Google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9b4df9e-b7f2-4808-acb7-5990fc942a7c",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "64b0a112-1790-4d7f-ab41-f77a772c80d6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "2955ad33-7a00-45ed-9ea2-4f9462f3f391",
+    "name": "FB",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://plarium.com/"],
+  "plugins": []
+}
